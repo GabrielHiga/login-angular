@@ -1,0 +1,61 @@
+.login-box {
+    width: 300px;
+    background: #fff;
+    color: #287fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 20px 50px 50px;    
+}
+
+.title-form {
+    margin-bottom: 0;
+}
+
+.paragraph-form {
+    color: #b1b5c0;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.form {
+    margin-top: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid #d7d7d7;
+    max-width: 280px;
+}
+
+.form-control::placeholder {
+    opacity: 0.2;
+}
+
+.text-item {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px; 
+    color: #b1b5c0;
+}
+
+.wrap-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.forgot {
+    color: #b1b5c0;
+}

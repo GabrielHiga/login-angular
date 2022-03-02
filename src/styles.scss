@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: #f2f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+}
+
+
+.btn {
+    width: 100%;
+    color: #fff;
+    background: #287fff;
+    border: none;
+    padding: 15px 0;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+.btn:hover {
+    background: #1564da;
+    transform: scale(1.03);
+}
+
+.btn.btn-primary {
+    margin-top: 10px;
+    border: 1px solid #287fff;
+    background: #fff;
+    color: #287fff; 
+}
+
+.btn.btn-primary:hover {
+    background: #287fff;
+    color: #fff;
+}
